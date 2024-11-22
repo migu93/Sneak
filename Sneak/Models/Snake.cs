@@ -7,6 +7,7 @@ namespace Sneak.Models
     {
         public List<Point> Body { get; private set; }
         private Direction direction;
+        private Direction growlink;
         private Direction nextDirection;
 
         public Snake(int gridWidth, int gridHeight)
