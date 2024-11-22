@@ -52,10 +52,10 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GameObject.cs" />
     <Compile Include="Models\Direction.cs" />
     <Compile Include="Models\Food.cs" />
     <Compile Include="Models\Game.cs" />
-    <Compile Include="Models\GameObject.cs" />
     <Compile Include="Models\GameSettings.cs" />
     <Compile Include="Models\Obstacle.cs" />
     <Compile Include="Models\ScoreManager.cs" />
