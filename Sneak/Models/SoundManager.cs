@@ -17,6 +17,7 @@ namespace Sneak.Models
             // Инициализируем звуковые файлы из ресурсов
             eatSound = new SoundPlayer(Properties.Resources.EatSound);
             gameOverSound = new SoundPlayer(Properties.Resources.GameOverSound);
+            gameOverSound = new SoundPlayer(Properties.Resources.GameOverSound);
         }
 
         public void PlayEatSound()
